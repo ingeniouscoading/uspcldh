@@ -31,6 +31,20 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- AOS (Animate on Scroll) -->
 
+    <!-- owl  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl  -->
+
+    <!-- google fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <!-- google fonts  -->
+
 </head>
 
 <body>
@@ -52,9 +66,9 @@
                 </ul>
             </header>
             <!-- navigaion bar  -->
-            <nav class="navbar navbar-expand-lg bg-info border-bottom p-1">
+            <nav class="navbar navbar-expand-lg bg-info border-bottom p-1" id="myNavbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="index.html">USPC</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -267,7 +281,8 @@
                     <div class="card mb-3" style="max-width: 900px;" data-aos="fade-right">
                         <div class="row g-0">
                             <div class="col-sm-4">
-                                <img src="static/img/mohinderjain.jpg" class="img-fluid rounded-start" id="rcorners2" alt="...">
+                                <img src="static/img/mohinderjain.jpg" class="img-fluid rounded-start" id="rcorners2"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -290,7 +305,8 @@
                     <div class="card mb-3" style="max-width: 900px;" data-aos="fade-right">
                         <div class="row g-0">
                             <div class="col-sm-4">
-                                <img src="static/img/vinneymalhotra.jpg" class="img-fluid rounded-start" id="rcorners2" alt="...">
+                                <img src="static/img/vinneymalhotra.jpg" class="img-fluid rounded-start" id="rcorners2"
+                                    alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -496,10 +512,10 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="card" data-aos="flip-left" id="rcorners2" >
+                    <div class="card" data-aos="flip-left" id="rcorners2">
                         <div class="card-header">Happy Birthday</div>
                         <div class="card-body p-1">
-                            <img class="card-img" src="https://picsum.photos/200/300" height="270" alt=""> 
+                            <img class="card-img" src="https://picsum.photos/200/300" height="270" alt="">
                         </div>
                     </div>
                 </div>
@@ -507,6 +523,34 @@
         </div>
     </div>
     <!-- about section  -->
+
+
+    <!-- RECOGNITIONS & RANKINGS -->
+    <section>
+        <div class="container-fluid bg-light">
+            <div class="container py-4">
+                <div class="row">
+                    <h1 class="text-center">RECOGNITIONS & RANKINGS</h1>
+                </div>
+                <div class="row">
+                    <!-- Set up your HTML -->
+                    <div class="owl-carousel">
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+                        <div class="p-2"><img src="https://picsum.photos/200/300" height="100" alt=""></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RECOGNITIONS & RANKINGS -->
 
 
     <!-- footer section  -->
@@ -592,6 +636,50 @@
         AOS.init();
     </script>
     <!-- AOS (Animate on Scroll) -->
+
+    <!-- jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery  -->
+
+    <!-- owl  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+    <!-- owl  -->
+
+    <!-- navbar scroll fix  -->
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myNavbar").classList.add("fixed-top");
+            } else {
+                document.getElementById("myNavbar").classList.remove("fixed-top");
+            }
+        }
+    </script>
+    <!-- navbar scroll fix  -->
 </body>
 
 </html>
