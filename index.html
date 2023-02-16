@@ -41,6 +41,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- owl  -->
 
+    <!-- sweet alert  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- sweet alert  -->
+
     <!-- google fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <!-- google fonts  -->
@@ -55,7 +59,7 @@
                     <svg class="bi me-2" width="40" height="32">
                         <use xlink:href="#bootstrap" />
                     </svg>
-                    <span class="fs-4">USPC JAIN PUBLIC SCHOOL</span>
+                    <span class="fs-4 school-name">USPC JAIN PUBLIC SCHOOL</span>
                 </a>
 
                 <ul class="nav nav-pills">
@@ -184,19 +188,18 @@
         </div>
     </div>
 
-
     <div class="container-fluid">
         <div class="row">
             <div class="px-4 pt-5 text-center border-bottom">
-                <h1 class="display-4 fw-bold">USPC JAIN GROUP OF SCHOOLS</h1>
+                <h1 class="display-4 fw-bold school-name">USPC JAIN GROUP OF SCHOOLS</h1>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
                         world's most popular front-end open source toolkit, featuring Sass variables and mixins,
                         responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" data-aos="fade-right">USPC
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 school-name" data-aos="fade-right">USPC
                             Jain Public School <i class="bi bi-box-arrow-up-right"></i></button>
-                        <button type="button" class="btn btn-warning btn-lg px-4" data-aos="fade-left">USPC Jain
+                        <button type="button" class="btn btn-warning btn-lg px-4 school-name" data-aos="fade-left">USPC Jain
                             Elementary School <i class="bi bi-box-arrow-up-right"></i></button>
                     </div>
                 </div>
@@ -257,13 +260,13 @@
                     <div class="card mb-3" style="max-width: 900px;" data-aos="fade-right">
                         <div class="row g-0">
                             <div class="col-sm-4">
-                                <img src="static/img/subhashjain.jpeg" class="img-fluid rounded-start" alt="..."
+                                <img src="static/img/subhashjain.jpeg" class="img-fluid img-hover rounded-start" alt="..."
                                     id="rcorners2">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">President's Desk</h5>
-                                    <p class="card-text">USPC JAIN GROUP OF SCHOOLS - A nonprofit making organization
+                                    <p class="card-text"><strong class="school-name">USPC JAIN GROUP OF SCHOOLS</strong> - A nonprofit making organization
                                         which believes in serving the society in the most remarkable way. USPC Jain
                                         family is a family that comprises of strong blessings of the legendary sages and
                                         saints. USPC JAIN GROUP OF SCHOOLS - A nonprofit making organization which
@@ -287,7 +290,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Sr. Vice President's Desk</h5>
-                                    <p class="card-text">USPC JAIN GROUP OF SCHOOLS - A nonprofit making organization
+                                    <p class="card-text"><strong class="school-name">USPC JAIN GROUP OF SCHOOLS</strong> - A nonprofit making organization
                                         which believes in serving the society in the most remarkable way. USPC Jain
                                         family is a family that comprises of strong blessings of the legendary sages and
                                         saints. USPC JAIN GROUP OF SCHOOLS - A nonprofit making organization which
@@ -311,7 +314,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Principal's Desk</h5>
-                                    <p class="card-text">USPC JAIN GROUP OF SCHOOLS - A nonprofit making organization
+                                    <p class="card-text"><strong class="school-name">USPC JAIN GROUP OF SCHOOLS</strong> - A nonprofit making organization
                                         which believes in serving the society in the most remarkable way. USPC Jain
                                         family is a family that comprises of strong blessings of the legendary sages and
                                         that comprises of strong blessings of the legendary sages and saints.</p>
@@ -515,7 +518,7 @@
                     <div class="card" data-aos="flip-left" id="rcorners2">
                         <div class="card-header">Happy Birthday</div>
                         <div class="card-body p-1">
-                            <img class="card-img" src="https://picsum.photos/200/300" height="270" alt="">
+                            <img class="card-img" src="https://picsum.photos/200/300" id="rcorners2" height="270" alt="">
                         </div>
                     </div>
                 </div>
@@ -647,39 +650,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script>
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            items: 4,
-            loop: true,
-            margin: 10,
-            autoplay: true,
-            autoplayTimeout: 1000,
-            autoplayHoverPause: true
-        });
-        $('.play').on('click', function () {
-            owl.trigger('play.owl.autoplay', [1000])
-        })
-        $('.stop').on('click', function () {
-            owl.trigger('stop.owl.autoplay')
-        })
-    </script>
-    <!-- owl  -->
-
-    <!-- navbar scroll fix  -->
-    <script>
-        window.onscroll = function () { myFunction() };
-
-        function myFunction() {
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("myNavbar").classList.add("fixed-top");
-            } else {
-                document.getElementById("myNavbar").classList.remove("fixed-top");
-            }
-        }
-    </script>
-    <!-- navbar scroll fix  -->
+    
+    <!-- style scripts  -->
+    <script src="static/js/main.js"></script>
 </body>
 
 </html>
