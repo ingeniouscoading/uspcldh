@@ -1,0 +1,11 @@
+# Framework
+Django
+
+#  Python Imaging Library
+Pillow
+
+# Admin Pannel
+django-jazzmin
+
+# Serving Static Files
+whitenoise == 6.3.0

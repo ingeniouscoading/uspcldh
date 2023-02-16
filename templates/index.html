@@ -156,7 +156,9 @@
                     class="bi bi-info-circle-fill"></i>&nbsp; Noticeboard :&rarr;</div>
             <div class="col-sm-8 text-light fw-bold p-1 bg-info">
                 <marquee behavior="scroll" direction="left">
-                    WELCOME TO USPC JAIN PUBLIC SCHOOL..........STAY SAFE & STAY HAPPY........THANKS
+                    {% for news in flash_news  %}
+                      <p>{{ news.flash_news}}</p>
+                    {% endfor %}
                 </marquee>
             </div>
             <div class="col-sm-2 bg-primary align-items-center">
