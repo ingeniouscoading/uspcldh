@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'uspcldh', # USPC Website
+    'uspcldh.apps.UspcldhConfig', # USPC Website
 ]
 
 MIDDLEWARE = [
