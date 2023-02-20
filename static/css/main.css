@@ -13,7 +13,10 @@
 
 /* fonts */
 
-
+/* links  */
+a{
+    text-decoration: none;
+}
 
 /* hover effect  */
 

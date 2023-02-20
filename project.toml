@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "uspcldh"
+version = "0.1.0"
+description = "My project description"
+authors = ["Ingenious Abhinav ingeniouscoading@gmail.com"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"

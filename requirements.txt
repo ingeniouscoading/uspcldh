@@ -9,3 +9,12 @@ django-jazzmin
 
 # Serving Static Files
 whitenoise == 6.3.0
+
+# ERP #
+django-ra-erp
+
+# 
+wheel == 0.38.4
+
+# formetting 
+autopep8 == 2.0.1

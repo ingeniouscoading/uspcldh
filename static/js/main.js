@@ -15,8 +15,7 @@ $('.stop').on('click', function () {
     owl.trigger('stop.owl.autoplay')
 })
 
-// navbar behavior on scroll
-
+// navbar scroll behaviour
 window.onscroll = function () { myFunction() };
 
 function myFunction() {

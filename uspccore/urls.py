@@ -1,5 +1,11 @@
+<<<<<<< Updated upstream
 """uspccore URL Configuration
+=======
+>>>>>>> Stashed changes
 """
+uspccore URL Configuration
+"""
+
 from django.contrib import admin
 from django.urls import path, include
 
